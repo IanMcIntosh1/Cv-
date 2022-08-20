@@ -1,0 +1,183 @@
+html {
+  height: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+body {
+  font-family: Malgun Gothic;
+  margin: 0;
+}
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, blue 50%, #09f 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  left: 50%;
+  padding: 5vmin;
+  position: fixed;
+  text-align: center;
+  top: 15%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 1px;
+  font-family: Malgun Gothic;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+.menu {
+  background-color: navy;
+  height: 100vh;
+  width: 10%;
+  color: white;
+  position: fixed;
+  z-index: 5;
+  outline: none;
+}
+
+.avatar {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 2em 0.5em;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 1em 1em 1em 3em;
+  font-size: 0.95em;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-family: Malgun Gothic;
+}
+
+:focus {
+  outline: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 150px;
+}
+
+/* Experience */
+.b1 {
+   display:inline-block;
+   position: absolute;
+   margin: 220px;
+   margin-top: 5px;
+   width:36%;
+   height:550px;
+   background-color:lightblue;
+   border: 2px solid;
+   text-align: center;
+}
+
+/* Qualifications */
+.b2 {
+  display:inline-block;
+  position: absolute;
+  margin: 940px;
+  margin-top: 430px;
+  width:36%;
+  height:150px;
+  background-color:lightblue;
+  border: 2px solid;
+  text-align: center;
+}
+
+/* Contact Me */
+.b3 {
+  display:inline-block;
+  position: absolute;
+  margin: 940px;
+  margin-top: 600px;
+  width:36%;
+  height:160px;
+  background-color:lightblue;
+  border: 2px solid;
+  text-align: center;
+}
+
+/* References */
+.b4 {
+  display:inline-block;
+  position: absolute;
+  margin: 220px;
+  margin-top: 570px;
+  width:36%;
+  height:190px;
+  background-color:lightblue;
+  border: 2px solid;
+  text-align: center;
+}
+
+/* Objective */
+.b5 {
+  display:inline-block;
+  position: absolute;
+  margin: 940px;
+  margin-top: 230px;
+  width:36%;
+  height: 180px;
+  background-color:lightblue;
+  border: 2px solid;
+  text-align: center;
+}
+
+/* Languages */
+.b6 {
+  display:inline-block;
+  position: absolute;
+  margin: 940px;
+  margin-top: 10px;
+  width:36%;
+  height: 200px;
+  background-color:lightblue;
+  border: 2px solid;
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 1px;
+}
